@@ -35,7 +35,7 @@ Based on the EDA performed, ordinal encoding was used for the categorical column
 The decision to use ordinal encoding was influenced by insights such as:
 Ideal cut diamonds were sold more, indicating that they might be purchased more due to their lower price.
 The descending order of clarity and color with respect to price was analyzed to determine the encoding order.
-=
+
 🎉 The project successfully developed regression models to predict diamond prices based on their attributes. Bagging techniques, particularly with KNeighborsRegressor, yielded the highest predictive performance, especially after applying log transformation to the target variable. The findings suggest that ensemble methods such as bagging can effectively handle complex relationships in the data and improve predictive performance.
 
 🚀 Future work may involve exploring other ensemble techniques, feature engineering, or incorporating domain knowledge to further enhance model performance. Additionally, a Flask web application was created to demonstrate the deployment of the trained model, and the code for this application can be found in the GitHub repository along with the model development code.
